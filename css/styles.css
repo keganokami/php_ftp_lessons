@@ -1,0 +1,112 @@
+.container {
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.top-title {
+  text-align: center;
+}
+
+.atencion-text {
+  color: rgb(112, 112, 112);
+  font-size: 14px;
+  text-align: center;
+}
+
+.atencion-text + .atencion-text {
+  margin-top: 3px;
+}
+
+.form-area {
+  width: 600px;
+  margin: 0 auto;
+  border: 2px solid #2fbbff;
+  background: #97d5f9;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.drag-drop-area {
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  border: 2px dashed grey;
+  background: rgb(190, 190, 190);
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.drag-drop-area:hover {
+  text-align: center;
+  width: 600px;
+  height: 200px;
+  border: 2px dashed grey;
+  background: rgb(190, 190, 190);
+  text-align: center;
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.submit-btn-area {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.submit-btn {
+  margin-top: 15px;
+  text-decoration: none;
+  background: #668ad8; /*ボタン色*/
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+}
+
+/* body {
+  background: rgb(237, 237, 237);
+} */
+
+/* #fileInput {
+  width: 400px;
+  height: 150px;
+  border: 2px dashed grey;
+  background: rgb(190, 190, 190);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#fileInput:hover {
+  opacity: 0.8;
+  width: 400px;
+  height: 150px;
+  border: 2px dashed grey;
+  background: rgb(190, 190, 190);
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 8px;
+} */
+
+.pre-uploadList {
+  text-align: center;
+}
+
+table.fileLinkList {
+  display: table;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table.fileLinkList tr {
+  border-bottom: solid 1px #eee;
+}
+
+table.fileLinkList th,
+table.fileLinkList td {
+  text-align: center;
+  width: 25%;
+  padding: 8px 0;
+}
